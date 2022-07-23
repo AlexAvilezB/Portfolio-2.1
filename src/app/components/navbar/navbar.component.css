@@ -1,0 +1,54 @@
+nav {
+  background-color: #1c2541;
+  font-family: "Roboto Mono", monospace;
+}
+
+a span,
+.navbar-brand {
+  color: #6fffe9;
+}
+
+.navbar-toggler {
+  color: #6fffe9;
+}
+
+.navbar-toggler span {
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+  margin-right: 10px;
+  transition: linear 0.2s;
+}
+
+.nav-link:focus {
+  color: #6fffe9;
+}
+
+.nav-link:hover {
+  color: #6fffe9;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+@media (max-width: 991px) {
+  .nav-link {
+    margin: 10px 0;
+  }
+  .btn {
+    margin: 10px 0;
+  }
+}
+
+.btn {
+  color: #fff;
+  border-color: #6fffe9;
+}
+
+.btn:hover {
+  color: #000;
+  background-color: #6fffe9;
+}

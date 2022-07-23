@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-lg navbar-dark p-3 fs-6">
+  <div class="container-fluid">
+    <a class="navbar-brand fs-5" href="#">
+      <ngx-typed-js
+        [backSpeed]="30"
+        [loop]="true"
+        [startDelay]="1000"
+        [strings]="[
+          'Welcome to my Portfolio.',
+          'I am Alejandro Avilez.',
+          'FrontEnd Developer.'
+        ]"
+      >
+        <span class="typing"></span>
+      </ngx-typed-js>
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><span>01.</span> About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><span>02.</span> Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><span>03.</span> Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><span>04.</span> Contact</a>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-outline-info">Resume</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
