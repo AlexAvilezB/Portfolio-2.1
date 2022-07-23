@@ -1,0 +1,24 @@
+.banner_wrapper {
+  padding-top: 5.875rem;
+  background-color: #1c2541;
+  height: 92.3vh;
+}
+
+.container {
+  padding-top: 150px;
+}
+
+.container h1 {
+  color: #dddddd;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.container p {
+  color: #6fffe9;
+  font-size: 30px;
+}
+
+.container span {
+  color: #fff;
+}
