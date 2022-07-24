@@ -1,13 +1,30 @@
 .banner_wrapper {
-  padding-top: 5.875rem;
-  background-color: #1c2541;
-  height: 92.3vh;
+  display: flex;
+  align-items: center;
   font-family: "Fira Code", monospace;
+  height: 92.3vh;
 }
 
 .container {
-  padding: 150px 0 40px 0;
   line-height: 20px;
+}
+
+.container-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-icons a svg {
+  width: 50px;
+  height: 50px;
+  color: #6fffe9;
+  margin-bottom: 30px;
+  animation: bounce 3s infinite;
+  transition: all 0.2s ease-in-out;
+}
+
+.container-icons a svg:hover {
+  color: #fff;
 }
 
 .container h1 {
@@ -26,6 +43,11 @@
 }
 
 .arrow {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
   position: absolute;
   left: 50%;
   bottom: 4%;
@@ -33,16 +55,25 @@
 }
 
 .text {
-  display: block;
-  position: absolute;
   left: 47.5%;
-  bottom: 9%;
+  margin-bottom: 20px;
   color: #6fffe9;
-  font-size: 16px;
+  font-size: 90%;
   user-select: none;
 }
 
 @media (max-width: 991px) {
+  .container {
+    flex-direction: column;
+  }
+  .container .container-icons {
+    flex-direction: row;
+  }
+  .container .container-icons a svg {
+    margin: 15px 15px 0;
+    width: 40px;
+    height: 40px;
+  }
   .container h1 {
     font-size: 60px;
   }
@@ -77,7 +108,6 @@
   transform: rotate(45deg);
   margin: -10px;
   animation: scroll 1.5s infinite;
-  cursor: pointer;
 }
 
 .arrow span:nth-child(2) {
@@ -99,5 +129,21 @@
   100% {
     opacity: 0;
     transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
   }
 }
