@@ -2,23 +2,102 @@
   padding-top: 5.875rem;
   background-color: #1c2541;
   height: 92.3vh;
+  font-family: "Fira Code", monospace;
 }
 
 .container {
-  padding-top: 150px;
+  padding: 150px 0 40px 0;
+  line-height: 20px;
 }
 
 .container h1 {
   color: #dddddd;
   font-size: 80px;
-  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .container p {
   color: #6fffe9;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .container span {
   color: #fff;
+}
+
+.arrow {
+  position: absolute;
+  left: 50%;
+  bottom: 4%;
+  transform: translate(-50%, -50%);
+}
+
+.text {
+  display: block;
+  position: absolute;
+  left: 47.5%;
+  bottom: 9%;
+  color: #6fffe9;
+  font-size: 16px;
+  user-select: none;
+}
+
+@media (max-width: 991px) {
+  .container h1 {
+    font-size: 60px;
+  }
+  .text {
+    left: 45%;
+  }
+  .arrow span {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media (max-width: 560px) {
+  .container h1 {
+    font-size: 60px;
+  }
+  .text {
+    left: 40%;
+  }
+  .arrow span {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.arrow span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 3px solid #6fffe9;
+  border-right: 3px solid #6fffe9;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: scroll 1.5s infinite;
+  cursor: pointer;
+}
+
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
 }

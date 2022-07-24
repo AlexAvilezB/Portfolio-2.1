@@ -1,6 +1,6 @@
 nav {
   background-color: #1c2541;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Fira Code", monospace;
 }
 
 a span,
@@ -10,6 +10,12 @@ a span,
 
 .navbar-toggler {
   color: #6fffe9;
+}
+
+@media (max-width: 357px) {
+  .navbar-toggler {
+    width: 55px;
+  }
 }
 
 .navbar-toggler span {
@@ -40,6 +46,10 @@ a span,
   }
   .btn {
     margin: 10px 0;
+  }
+  a span,
+  .navbar-brand {
+    font-size: 15px;
   }
 }
 
