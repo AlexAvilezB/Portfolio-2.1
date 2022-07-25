@@ -5,10 +5,6 @@
   height: 100vh;
 }
 
-.container {
-  line-height: 35px;
-}
-
 .container h1 {
   color: #dddddd;
   font-size: 80px;
@@ -22,4 +18,11 @@
 
 .container span {
   color: #6fffe9;
+}
+
+.container .photo img {
+  width: 350px;
+  height: 350px;
+  border: 2px solid black;
+  box-shadow: 60px 50px 5px 5px #6fffe9;
 }
