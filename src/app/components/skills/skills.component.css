@@ -30,8 +30,7 @@
   background-color: #6fffe9;
   margin: 0 20px;
   cursor: pointer;
-  box-shadow: black 15px 15px;
-  text-shadow: black 2px 3px;
+  box-shadow: black 10px 10px;
 }
 
 .flipped1 {
@@ -77,14 +76,14 @@ svg {
   height: 150px;
   fill: #6fffe9;
   margin-bottom: 20px;
-  filter: drop-shadow(7px 7px black);
+  filter: drop-shadow(5px 5px black);
 }
 
 @media (max-width: 950px) {
   .main_container {
     flex-direction: column;
-    width: 250px;
-    height: 620px;
+    width: 75%;
+    height: 820px;
   }
   .card {
     margin: 30px 0;
