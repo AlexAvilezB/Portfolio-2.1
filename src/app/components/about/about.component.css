@@ -26,8 +26,6 @@
 .container .photo img {
   width: 350px;
   height: 350px;
-  border: 2px solid black;
-  box-shadow: 60px 50px 5px 5px #6fffe9;
 }
 
 @media (max-width: 991px) {

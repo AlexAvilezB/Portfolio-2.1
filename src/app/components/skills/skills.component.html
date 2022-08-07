@@ -3,7 +3,11 @@
     <h1>Skills</h1>
   </div>
   <div class="main_container d-flex">
-    <div class="card">
+    <div
+      [ngClass]="{ flipped1: flipped1 }"
+      (click)="toggleFlip1()"
+      class="card"
+    >
       <div
         class="front d-flex flex-column justify-content-center align-items-center"
       >
@@ -17,17 +21,21 @@
         </div>
       </div>
 
-      <div
-        class="back d-flex flex-column justify-content-center align-items-center"
-      >
-        <p>HTML:</p>
-        <p>CSS:</p>
-        <p>JavaScript:</p>
-        <p>Bootstrap:</p>
-        <p>Angular:</p>
+      <div class="back d-flex flex-column justify-content-center">
+        <p>HTML - <span>Web pages structure and content deployment.</span></p>
+        <p>CSS - <span>Component styling, Bootstrap.</span></p>
+        <p>JavaScript - <span>ES6+, Fundamental Knowledge.</span></p>
+        <p>
+          Angular -
+          <span>Structuring by components, modules, basic knowledge.</span>
+        </p>
       </div>
     </div>
-    <div class="card">
+    <div
+      [ngClass]="{ flipped2: flipped2 }"
+      (click)="toggleFlip2()"
+      class="card"
+    >
       <div
         class="front d-flex flex-column justify-content-center align-items-center"
       >
@@ -41,12 +49,16 @@
         </div>
       </div>
 
-      <div
-        class="back d-flex flex-column justify-content-center align-items-center"
-      >
-        <p>VSCode:</p>
-        <p>Linux Terminal:</p>
-        <p>Git:</p>
+      <div class="back d-flex flex-column justify-content-center">
+        <p>
+          VSCode -
+          <span
+            >Favorite code editor, use of extensions to make development
+            comfortable.</span
+          >
+        </p>
+        <p>Linux - <span>Ubuntu command terminal usage.</span></p>
+        <p>Git - <span>Version control, GitHub</span></p>
       </div>
     </div>
   </div>
