@@ -1,0 +1,14 @@
+.banner_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fira Code", monospace;
+  height: 100vh;
+}
+
+.container h1 {
+  color: #dddddd;
+  font-size: 60px;
+  margin-bottom: 80px;
+}
