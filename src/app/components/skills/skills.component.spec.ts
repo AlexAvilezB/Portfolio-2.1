@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ScrollTopComponent } from './scroll-top.component';
+import { SkillsComponent } from './skills.component';
 
-describe('ScrollTopComponent', () => {
-  let component: ScrollTopComponent;
-  let fixture: ComponentFixture<ScrollTopComponent>;
+describe('SkillsComponent', () => {
+  let component: SkillsComponent;
+  let fixture: ComponentFixture<SkillsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ScrollTopComponent ]
+      declarations: [ SkillsComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ScrollTopComponent);
+    fixture = TestBed.createComponent(SkillsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

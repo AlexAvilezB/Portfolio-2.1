@@ -1,5 +1,7 @@
 .banner_wrapper {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   font-family: "Fira Code", monospace;
   height: 100vh;
@@ -7,13 +9,14 @@
 
 .container h1 {
   color: #dddddd;
-  font-size: 80px;
-  margin-bottom: 30px;
+  font-size: 60px;
+  margin-bottom: 70px;
 }
 
 .container p {
   color: #fff;
   font-size: 20px;
+  line-height: 40px;
 }
 
 .container span {
@@ -25,4 +28,13 @@
   height: 350px;
   border: 2px solid black;
   box-shadow: 60px 50px 5px 5px #6fffe9;
+}
+
+@media (max-width: 991px) {
+  .container {
+    flex-direction: column;
+  }
+  .container .photo img {
+    display: none;
+  }
 }
