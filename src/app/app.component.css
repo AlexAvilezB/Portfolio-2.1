@@ -1,3 +1,9 @@
-body {
+body,
+footer {
   background-color: #141b30;
+}
+
+footer {
+  height: 70px;
+  text-align: center;
 }

@@ -1,0 +1,14 @@
+.container {
+  font-family: "Fira Code", monospace;
+  text-decoration: none;
+}
+
+a {
+  color: #6fffe9;
+  text-decoration-line: none;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: white;
+}
