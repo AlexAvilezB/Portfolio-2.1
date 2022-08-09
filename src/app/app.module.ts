@@ -13,6 +13,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ScrollTopComponent } from './components/scroll-top/scroll-top.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { FooterComponent } from './components/footer/footer.component';
     CarouselComponent,
     ContactComponent,
     FooterComponent,
+    ScrollTopComponent,
   ],
   imports: [
     BrowserModule,
