@@ -4,6 +4,15 @@
   width: 65%;
 }
 
+@media (max-width: 991px) {
+  .carousel-item img {
+    width: 100%;
+  }
+  .carousel-item {
+    padding: 50px;
+  }
+}
+
 .carousel-caption {
   position: initial;
 }

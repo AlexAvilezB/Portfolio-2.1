@@ -4,9 +4,16 @@
 }
 
 a {
+  font-size: 85%;
   color: #6fffe9;
   text-decoration-line: none;
   transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 991px) {
+  a {
+    font-size: 75%;
+  }
 }
 
 a:hover {

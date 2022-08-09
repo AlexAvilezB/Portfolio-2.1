@@ -19,6 +19,13 @@ form {
   text-align: left;
 }
 
+@media (max-width: 991px) {
+  form {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 label,
 p {
   color: white;

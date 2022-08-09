@@ -4,6 +4,9 @@ footer {
 }
 
 footer {
+  display: flex;
   height: 70px;
+  align-items: center;
   text-align: center;
+  justify-content: center;
 }
