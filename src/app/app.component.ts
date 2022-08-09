@@ -7,6 +7,6 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'Portfolio-2.1';
+  title = 'Alejandro Avilez Portfolio';
   faCoffee = faCoffee;
 }
