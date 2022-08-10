@@ -1,8 +1,12 @@
+section {
+  padding-bottom: 20px;
+}
+
 .banner_wrapper {
   display: flex;
   align-items: center;
   font-family: "Fira Code", monospace;
-  height: 92.3vh;
+  height: 100vh;
 }
 
 .container {
@@ -12,6 +16,10 @@
 .container-icons {
   display: flex;
   flex-direction: column;
+}
+
+.preset {
+  padding-bottom: 90px;
 }
 
 .container-icons a svg {
@@ -48,7 +56,6 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-
   position: absolute;
   left: 50%;
   bottom: 4%;
@@ -56,10 +63,10 @@
 }
 
 .text {
-  left: 47.5%;
+  left: 46.5%;
   margin-bottom: 20px;
   color: #6fffe9;
-  font-size: 90%;
+  font-size: 80%;
   user-select: none;
 }
 
@@ -75,8 +82,12 @@
     width: 40px;
     height: 40px;
   }
+  .container p {
+    color: #6fffe9;
+    font-size: 16px;
+  }
   .container h1 {
-    font-size: 60px;
+    font-size: 40px;
   }
   .text {
     left: 45%;
@@ -108,21 +119,21 @@
 
 .arrow span {
   display: block;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-bottom: 3px solid #6fffe9;
   border-right: 3px solid #6fffe9;
   transform: rotate(45deg);
   margin: -10px;
-  animation: scroll 1.5s infinite;
+  animation: scroll 1.3s infinite;
 }
 
 .arrow span:nth-child(2) {
-  animation-delay: -0.2s;
+  animation-delay: -0.1s;
 }
 
 .arrow span:nth-child(3) {
-  animation-delay: -0.4s;
+  animation-delay: -0.3s;
 }
 
 @keyframes scroll {

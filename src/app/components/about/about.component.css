@@ -5,6 +5,7 @@
   align-items: center;
   font-family: "Fira Code", monospace;
   height: 100vh;
+  padding-bottom: 50px;
 }
 
 .container h1 {
@@ -31,6 +32,9 @@
 @media (max-width: 991px) {
   .container {
     flex-direction: column;
+  }
+  .container p {
+    font-size: 16px;
   }
   .container .photo img {
     display: none;

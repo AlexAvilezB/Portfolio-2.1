@@ -1,6 +1,7 @@
 .container {
   font-family: "Fira Code", monospace;
   text-decoration: none;
+  padding: 30% 0 10% 0;
 }
 
 a {
