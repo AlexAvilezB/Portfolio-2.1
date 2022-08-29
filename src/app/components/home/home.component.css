@@ -1,7 +1,3 @@
-section {
-  padding-bottom: 20px;
-}
-
 .banner_wrapper {
   display: flex;
   align-items: center;
@@ -11,6 +7,10 @@ section {
 
 .container {
   line-height: 20px;
+}
+
+.container h1 {
+  font-size: 60px;
 }
 
 .container-icons {
@@ -38,7 +38,7 @@ section {
 
 .container h1 {
   color: #dddddd;
-  font-size: 80px;
+
   margin-bottom: 20px;
 }
 
@@ -99,9 +99,6 @@ section {
 }
 
 @media (max-width: 560px) {
-  .container h1 {
-    font-size: 60px;
-  }
   .text {
     left: 40%;
   }

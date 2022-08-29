@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   font-family: "Fira Code", monospace;
-  height: 100vh;
+  padding-bottom: 70px;
 }
 
 .container h1 {
@@ -15,17 +15,18 @@
 
 .main_container {
   position: relative;
-  width: 950px;
+  width: 100%;
+  justify-content: center;
   height: 320px;
   border-radius: 10px;
 }
 
 .card {
   position: relative;
-  width: 100%;
+  width: 26%;
   height: 100%;
   transform-style: preserve-3d;
-  transition: transform 1.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 1.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   border-radius: 10px;
   background-color: #6fffe9;
   margin: 0 20px;
@@ -87,9 +88,11 @@ svg {
     flex-direction: column;
     width: 85%;
     height: 820px;
+    align-items: center;
   }
   .card {
     margin: 30px 0;
+    width: 80%;
     height: 900px;
     font-size: 16px;
   }

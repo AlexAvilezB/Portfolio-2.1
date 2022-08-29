@@ -4,6 +4,8 @@
   justify-content: center;
   align-items: center;
   font-family: "Fira Code", monospace;
+  padding-bottom: 70px;
+  height: 100vh;
 }
 
 .container h1 {
