@@ -10,7 +10,6 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProjectsComponent } from './components/projects/projects.component';
-import { CarouselComponent } from './components/carousel/carousel.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ScrollTopComponent } from './components/scroll-top/scroll-top.component';
@@ -23,7 +22,6 @@ import { ScrollTopComponent } from './components/scroll-top/scroll-top.component
     AboutComponent,
     SkillsComponent,
     ProjectsComponent,
-    CarouselComponent,
     ContactComponent,
     FooterComponent,
     ScrollTopComponent,

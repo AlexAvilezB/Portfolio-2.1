@@ -5,12 +5,11 @@
   align-items: center;
   font-family: "Fira Code", monospace;
   padding-bottom: 70px;
-  height: 100vh;
 }
 
 .container h1 {
   color: #dddddd;
-  font-size: 60px;
+  font-size: 50px;
   margin-bottom: 70px;
 }
 

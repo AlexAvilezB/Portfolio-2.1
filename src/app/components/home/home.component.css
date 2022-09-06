@@ -10,7 +10,7 @@
 }
 
 .container h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .container-icons {
@@ -92,9 +92,8 @@
   .text {
     left: 45%;
   }
-  .arrow span {
-    width: 10px;
-    height: 10px;
+  .scroll-down {
+    display: none;
   }
 }
 
