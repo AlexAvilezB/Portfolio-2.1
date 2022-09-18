@@ -11,6 +11,8 @@
 
 .container h1 {
   font-size: 50px;
+  color: #dddddd;
+  margin-bottom: 20px;
 }
 
 .container-icons {
@@ -34,12 +36,6 @@
 
 .container-icons a svg:hover {
   color: #fff;
-}
-
-.container h1 {
-  color: #dddddd;
-
-  margin-bottom: 20px;
 }
 
 .container p {

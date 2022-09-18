@@ -1,25 +1,35 @@
-nav {
+header {
   background-color: #141b30;
   font-family: "Fira Code", monospace;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  position: absolute;
 }
 
-a span,
-.navbar-brand {
+.hamburger {
+  display: none;
+}
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.nav-bar ul li {
+  display: block;
+  margin-right: 10px;
+}
+
+.typed {
   color: #6fffe9;
 }
 
-.navbar-toggler {
+a span {
   color: #6fffe9;
-}
-
-@media (max-width: 357px) {
-  .navbar-toggler {
-    width: 55px;
-  }
-}
-
-.navbar-toggler span {
-  color: #fff;
 }
 
 .nav-link {
@@ -36,23 +46,6 @@ a span,
   color: #6fffe9;
 }
 
-.navbar-collapse {
-  flex-grow: 0;
-}
-
-@media (max-width: 991px) {
-  .nav-link {
-    margin: 10px 0;
-  }
-  .btn {
-    margin: 10px 0;
-  }
-  a span,
-  .navbar-brand {
-    font-size: 15px;
-  }
-}
-
 .btn {
   color: #fff;
   border-color: #6fffe9;
@@ -61,4 +54,72 @@ a span,
 .btn:hover {
   color: #000;
   background-color: #6fffe9;
+}
+
+@media only screen and (max-width: 1320px) {
+  header {
+    padding: 0 50px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  header {
+    padding: 0 30px;
+  }
+}
+
+@media only screen and (max-width: 1010px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger .line {
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin: 6px 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-bar {
+    z-index: 1;
+    height: 0;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background: #141b30;
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+  }
+
+  header.active .nav-bar {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .typed.active {
+    display: none;
+  }
+
+  .nav-bar ul {
+    display: block;
+    width: fit-content;
+    margin: 80px auto 0 auto;
+    text-align: center;
+    transition: 0.5s;
+    opacity: 0;
+    text-align: left;
+  }
+
+  header.active .nav-bar ul {
+    opacity: 1;
+  }
+
+  .nav-bar ul li a {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
 }
