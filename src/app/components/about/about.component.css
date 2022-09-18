@@ -29,6 +29,9 @@
 }
 
 @media (max-width: 991px) {
+  .banner_wrapper {
+    padding: 0;
+  }
   .container {
     flex-direction: column;
   }
