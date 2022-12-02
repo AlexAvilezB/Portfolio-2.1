@@ -4,13 +4,13 @@
   justify-content: center;
   align-items: center;
   font-family: "Fira Code", monospace;
-  padding: 90px 0;
+  padding: 70px 0;
 }
 
 .container h1 {
   color: #dddddd;
   font-size: 50px;
-  margin-bottom: 85px;
+  margin-bottom: 6rem;
 }
 
 .container p {
@@ -24,8 +24,8 @@
 }
 
 .container .photo img {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   box-shadow: black 10px 10px;
   border-radius: 5px;
   

@@ -6,8 +6,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 100px;
+  padding: 0 50px;
   position: absolute;
+  margin-top: 15px;
 }
 
 .hamburger {
@@ -48,12 +49,31 @@ a span {
 
 .btn {
   color: #fff;
-  border-color: #6fffe9;
+  box-shadow: 2px 2px #6fffe9;
+  color: #6fffe9;
+  border: #6fffe9 1px solid;
+  font-size: 14px;
 }
 
 .btn:hover {
   color: #000;
   background-color: #6fffe9;
+  box-shadow: 2px 2px black;
+  border: black 1px solid;
+}
+
+.coffee {
+  color: #fff;
+  border-color: #f8e53c;
+  box-shadow: 2px 2px #f8e53c;
+  border: #f8e53c 1px solid;
+}
+
+.coffee:hover {
+  color: #000;
+  background-color: #f8e53c;
+  box-shadow: 2px 2px black;
+  border: black 1px solid;
 }
 
 @media only screen and (max-width: 1320px) {
@@ -120,6 +140,14 @@ a span {
 
   .nav-bar ul li a {
     margin-bottom: 30px;
-    font-size: 20px;
+    font-size: 16px;
+  }
+
+  .btn{
+      margin-bottom: 16px;
   }
 }
+
+.nav-bar ul li a {
+    font-size: 14px;
+  }

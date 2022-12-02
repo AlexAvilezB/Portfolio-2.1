@@ -80,6 +80,14 @@ svg {
   filter: drop-shadow(5px 5px black);
 }
 
+.angular{
+  width: 150px;
+  height: 150px;
+  fill: #ff0101;
+  margin-bottom: 20px;
+  filter: drop-shadow(5px 5px black);
+}
+
 @media (max-width: 950px) {
   .banner_wrapper {
     margin: 20% 0;

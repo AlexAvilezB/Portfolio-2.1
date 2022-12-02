@@ -1,0 +1,26 @@
+h1 {
+  font-size: 4.5rem;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+p {
+  color: #6fffe9;
+  font-size: 18px;
+}
+
+span {
+  color: white;
+}
+
+@media (max-width: 991px) {
+  p {
+    color: #6fffe9;
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+}
+

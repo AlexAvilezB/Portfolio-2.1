@@ -9,70 +9,9 @@
   line-height: 20px;
 }
 
-.container h1 {
-  font-size: 50px;
-  color: #dddddd;
-  margin-bottom: 20px;
-}
-
-.container-icons {
-  display: flex;
-  flex-direction: column;
-}
-
-.container-icons a svg {
-  width: 50px;
-  height: 50px;
-  color: #6fffe9;
-  margin-bottom: 30px;
-  animation: bounce 3s infinite;
-  transition: all 0.2s ease-in-out;
-  filter: drop-shadow(5px 5px black);
-}
-
-.container-icons a svg:hover {
-  color: #fff;
-}
-
-.container p {
-  color: #6fffe9;
-  font-size: 20px;
-}
-
-.container span {
-  color: #fff;
-}
-
-.arrow {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  position: absolute;
-  left: 50%;
-  bottom: 5%;
-  transform: translate(-50%, -50%);
-}
-
-.text {
-  left: 46.5%;
-  margin-bottom: 20px;
-  color: #6fffe9;
-  font-size: 80%;
-  user-select: none;
-}
-
 @media (max-width: 991px) {
   .container {
     flex-direction: column;
-  }
-  .container .container-icons {
-    flex-direction: row;
-  }
-  .container .container-icons a svg {
-    margin: 40px 25px 0;
-    width: 40px;
-    height: 40px;
   }
   .container p {
     color: #6fffe9;
@@ -81,75 +20,5 @@
   .container h1 {
     font-size: 40px;
   }
-  .text {
-    left: 45%;
-  }
-  .scroll-down {
-    display: none;
-  }
 }
 
-@media (max-width: 560px) {
-  .text {
-    left: 40%;
-  }
-  .arrow span {
-    width: 10px;
-    height: 10px;
-  }
-}
-
-@media (max-width: 376px) {
-  .arrow {
-    margin-top: 20px;
-  }
-}
-
-.arrow span {
-  display: block;
-  width: 15px;
-  height: 15px;
-  border-bottom: 3px solid #6fffe9;
-  border-right: 3px solid #6fffe9;
-  transform: rotate(45deg);
-  margin: -10px;
-  animation: scroll 1.3s infinite;
-}
-
-.arrow span:nth-child(2) {
-  animation-delay: -0.1s;
-}
-
-.arrow span:nth-child(3) {
-  animation-delay: -0.3s;
-}
-
-@keyframes scroll {
-  0% {
-    opacity: 0;
-    transform: rotate(45deg) translate(-20px, -20px);
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: rotate(45deg) translate(20px, 20px);
-  }
-}
-
-@keyframes bounce {
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-15px);
-  }
-  60% {
-    transform: translateY(-10px);
-  }
-}

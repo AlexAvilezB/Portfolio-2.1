@@ -13,6 +13,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ScrollTopComponent } from './components/scroll-top/scroll-top.component';
+import { HomeModule } from './components/home/home.module';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { ScrollTopComponent } from './components/scroll-top/scroll-top.component
     AppRoutingModule,
     NgxTypedJsModule,
     FontAwesomeModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -4,8 +4,8 @@
   padding: 10% 0;
 }
 
-a {
-  font-size: 85%;
+p, a {
+  font-size: 13px;
   color: #6fffe9;
   text-decoration-line: none;
   transition: all 0.2s ease-in-out;
