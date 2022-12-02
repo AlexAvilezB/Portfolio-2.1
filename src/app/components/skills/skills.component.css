@@ -8,8 +8,9 @@
 }
 
 .container h1 {
-  color: #dddddd;
+  color: white;
   font-size: 50px;
+  font-weight: 600;
   margin-bottom: 85px;
 }
 
@@ -49,7 +50,7 @@
   backface-visibility: hidden;
   border-radius: 10px;
   color: #fff;
-  background: #1e293b;
+  background: #131a25;
 }
 
 .back {
@@ -58,7 +59,7 @@
   height: 100%;
   backface-visibility: hidden;
   color: #fff;
-  background: #1e293b;
+  background: #131a25;
   transform: rotateY(180deg);
   border-radius: 10px;
 }

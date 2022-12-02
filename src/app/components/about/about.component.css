@@ -8,9 +8,10 @@
 }
 
 .container h1 {
-  color: #dddddd;
+  color: white;
   font-size: 50px;
   margin-bottom: 6rem;
+  font-weight: 600;
 }
 
 .container p {
