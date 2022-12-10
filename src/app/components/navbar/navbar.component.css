@@ -104,18 +104,18 @@ a span {
   .nav-bar {
     z-index: 1;
     height: 0;
+    background-color: #06071e;
     position: absolute;
     top: 50px;
     left: 0;
     right: 0;
     width: 100vw;
-    background: #141b30;
     transition: 0.3s ease-in-out;
     overflow: hidden;
   }
 
   header.active .nav-bar {
-    height: 100vh;
+    height: 60vh;
     width: 100%;
   }
 
