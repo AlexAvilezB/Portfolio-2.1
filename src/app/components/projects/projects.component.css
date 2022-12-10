@@ -1,36 +1,10 @@
 .banner_wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   font-family: "Fira Code", monospace;
   padding: 90px 0;
-}
-
-.btn {
-  color: #fff;
-  box-shadow: 2px 2px #6fffe9;
-  color: #6fffe9;
-  border: #6fffe9 1px solid;
-}
-
-.btn:hover {
-  color: #000;
-  background-color: #6fffe9;
-  box-shadow: 2px 2px black;
-  border: black 1px solid;
-}
-
-.btn-source {
-  color: #fff;
-  border-color: #9626ff;
-  box-shadow: 2px 2px #9626ff;
-  border: #9626ff 1px solid;
-}
-
-.btn-source:hover {
-  color: #fff;
-  background-color: #9626ff;
 }
 
 .container h1 {
@@ -40,19 +14,8 @@
   margin-bottom: 85px;
 }
 
-.card {
-  background-color: #131a25;
-  border: 1px solid #6fffe9;
-  box-shadow: black 10px 10px;
-  color: white;
-}
-
 @media (max-width: 950px) {
   .banner_wrapper {
     padding: 30px ;
   }
-
-.btn {
-  margin: 10px 0;
-}
 }

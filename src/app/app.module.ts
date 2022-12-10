@@ -1,9 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { AppRoutingModule } from './app-routing.module';
+
 import { NgxTypedJsModule } from 'ngx-typed-js';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { HomeModule } from './components/home/home.module';
+import { SkillsModule } from './components/skills/skills.module';
+import { ProjectsModule } from './components/projects/projects.module';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
@@ -13,7 +17,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ScrollTopComponent } from './components/scroll-top/scroll-top.component';
-import { HomeModule } from './components/home/home.module';
+import { ContactModule } from './components/contact/contact.module';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +37,10 @@ import { HomeModule } from './components/home/home.module';
     AppRoutingModule,
     NgxTypedJsModule,
     FontAwesomeModule,
-    HomeModule
+    HomeModule,
+    SkillsModule,
+    ProjectsModule,
+    ContactModule
   ],
   providers: [],
   bootstrap: [AppComponent],

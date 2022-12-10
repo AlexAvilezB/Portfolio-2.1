@@ -6,19 +6,8 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./skills.component.css'],
 })
 export class SkillsComponent implements OnInit {
-  @Input()
-  public flipped1: boolean = false;
-  public flipped2: boolean = false;
-
+  
   constructor() {}
-
-  toggleFlip1() {
-    this.flipped1 = !this.flipped1;
-  }
-
-  toggleFlip2() {
-    this.flipped2 = !this.flipped2;
-  }
 
   ngOnInit(): void {}
 }
