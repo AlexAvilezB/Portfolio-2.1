@@ -1,46 +1,32 @@
-.banner_wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: "Fira Code", monospace;
-  padding: 70px 0;
+.about {
+  margin: 5rem 0;
+  padding: 0 10px;
 }
 
 .container h1 {
-  color: white;
   font-size: 50px;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
   font-weight: 600;
 }
 
 .container p {
-  color: #fff;
-  font-size: 20px;
   line-height: 35px;
 }
 
-.container span {
-  color: #6fffe9;
-}
-
 .container .photo img {
-  width: 350px;
-  height: 350px;
-  box-shadow: black 10px 10px;
-  border-radius: 5px;
-  
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  box-shadow: 20px 20px #4A4E69;
 }
 
 @media (max-width: 991px) {
-  .banner_wrapper {
-    padding: 0;
-  }
   .container {
     flex-direction: column;
   }
   .container p {
-    font-size: 16px;
+    font-size: 18px;
+    text-align: justify;
   }
   .container .photo img {
     display: none;

@@ -1,54 +1,43 @@
-<header [ngClass]="show ? 'active' : ''">
-  <ngx-typed-js
-    class="typed"
-    [backSpeed]="40"
-    [loop]="true"
-    [startDelay]="1000"
-    [strings]="[
-      'Welcome to my Portfolio.',
-      'FrontEnd Developer.',
-      'Think.',
-      'Try different solutions.',
-      'Break your limits',
-      'Expand your knowledge'
-    ]"
-    >> <span class="typing"></span>
-  </ngx-typed-js>
-  <div class="hamburger" (click)="showNav()">
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
-  </div>
-  <nav class="nav-bar">
-    <ul>
+<header class="d-flex w-100 align-items-center position-absolute justify-content-between">
+    <div class="ng-type">
+      <ngx-typed-js
+          class="typed"
+          [backSpeed]="40"
+          [loop]="true"
+          [startDelay]="1000"
+          [strings]="[
+            'Welcome to my Portfolio.',
+            'FrontEnd Developer.',
+            'Think.',
+            'Try different solutions.',
+            'Break your limits.',
+            'Expand your knowledge.'
+          ]"
+          >> <span class="typing"></span>
+        </ngx-typed-js>
+    </div>
+  <div class="nav-bar">
+    <ul class="d-flex nav-list" [ngClass]="show ? 'active' : ''">
       <li class="nav-item">
-        <a class="nav-link active" href="#about"><span>01.</span> About Me</a>
+        <a class="nav-link active" href="#about">About Me</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#skills"><span>02.</span> Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#projects"><span>03.</span> Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contact"><span>04.</span> Contact</a>
-      </li>
-      <li class="nav-item">
+      <li>
         <a
-          href="https://drive.google.com/file/d/1dlVjY-PJU1cVA6roohAG8KohadqzDtUc/view?usp=sharing"
+          href="https://drive.google.com/file/d/1cc8X2k-NXKC9uHbT7wjd9UpdNnqaFBh5/view?usp=share_link"
           target="_blank"
         >
           <button type="button" class="btn btn-outline-info">Resume</button>
         </a>
       </li>
-      <li class="nav-item">
-        <a
-          href="https://ko-fi.com/ishicoder"
-          target="_blank"
-        >
-          <button type="button" class="btn coffee">Support me</button>
-        </a>
-      </li>
     </ul>
-  </nav>
+  </div>
+  <div class="toogler" (click)="active()">
+    <i class='bx bx-menu'></i>
+  </div>
 </header>

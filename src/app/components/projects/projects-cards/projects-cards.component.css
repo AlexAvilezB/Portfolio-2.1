@@ -1,5 +1,5 @@
 .btn {
-  color: #fff;
+  color: #ffffe3;
   box-shadow: 2px 2px #6fffe9;
   color: #6fffe9;
   border: #6fffe9 1px solid;
@@ -17,15 +17,15 @@ span {
 }
 
 .btn-source {
-  color: #fff;
-  border-color: #9626ff;
-  box-shadow: 2px 2px #9626ff;
-  border: #9626ff 1px solid;
+  color: #ffffe3;
+  border-color: #4A4E69;
+  box-shadow: 2px 2px #4A4E69;
+  border: #4A4E69 1px solid;
 }
 
 .btn-source:hover {
-  color: #fff;
-  background-color: #9626ff;
+  color: #ffffe3;
+  background-color: #4A4E69;
 }
 
 img {

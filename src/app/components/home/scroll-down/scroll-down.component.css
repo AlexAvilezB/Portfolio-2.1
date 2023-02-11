@@ -1,3 +1,7 @@
+.scroll-down p {
+  font-size: 16px;
+}
+
 .arrow {
   display: flex;
   align-items: center;
@@ -13,7 +17,6 @@
   left: 46.5%;
   margin-bottom: 20px;
   color: #6fffe9;
-  font-size: 80%;
   user-select: none;
 }
 
@@ -39,7 +42,7 @@
 @keyframes scroll {
   0% {
     opacity: 0;
-    transform: rotate(45deg) translate(-20px, -20px);
+    transform: rotate(45deg) translate(-10px, -10px);
   }
   50% {
     opacity: 1;

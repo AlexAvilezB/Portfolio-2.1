@@ -1,14 +1,9 @@
 .banner_wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: "Fira Code", monospace;
-  padding-top: 90px;
+ padding: 0 30px;
 }
 
 .container h1 {
-  color: white;
+  color: #ffffe3;
   font-size: 50px;
   font-weight: 600;
 }
@@ -18,7 +13,7 @@
 }
 
 p{
-  color: white;
+  color: #ffffe3;
 }
 
 @media (max-width: 700px) {

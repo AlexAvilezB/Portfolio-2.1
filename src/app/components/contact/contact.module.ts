@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ContactFormComponent } from './contact-form/contact-form.component';
+import { SocialIconsComponent } from './social-icons/social-icons.component'
 
 
 
 @NgModule({
   declarations: [
-    ContactFormComponent
+    SocialIconsComponent
   ],
   exports: [
-    ContactFormComponent
+    SocialIconsComponent
   ],
   imports: [
     CommonModule

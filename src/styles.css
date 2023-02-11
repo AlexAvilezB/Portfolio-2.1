@@ -6,27 +6,31 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Synonym', sans-serif;
+  color: #ffffe3;
 }
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #141b30;
+  background-color: #22223B;
+}
+
+h1, h2, h3 {
+  font-family: 'Amulya', sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+span {
+  color: #6fffe9;
 }
 
 ::-webkit-scrollbar {
-  width: 6px;
-  background-color: #141b30;
+  width: 5px;
+  background-color: #22223B;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #6fffe9;
-  background-image: -webkit-linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0.2) 25%,
-    transparent 25%,
-    transparent 50%,
-    rgba(255, 255, 255, 0.2) 50%,
-    rgba(255, 255, 255, 0.2) 75%,
-    transparent 75%,
-    transparent
-  );
+  background-color: #F2E9E4;
 }
