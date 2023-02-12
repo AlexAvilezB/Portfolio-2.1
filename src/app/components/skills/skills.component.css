@@ -6,6 +6,10 @@ i {
   text-shadow: 5px 5px #4A4E69;
 }
 
+span {
+  color: #ffffe3;
+}
+
 .technologies, .tools {
   display: grid;
   grid-template-columns: repeat( 4, 1fr);
@@ -21,7 +25,7 @@ i {
   gap: 3rem;
   margin-top: 3rem;
   border-radius: 10px;
-  padding: 0 30px;
+  padding: 0 20px;
 }
 
 @media (max-width: 1091px) {
@@ -32,6 +36,30 @@ i {
 
   i {
   font-size: 50px;
+  }
+}
+
+@media (max-width: 515px) {
+  .technologies, .tools {
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    gap: 3rem;
+  }
+
+  .main_container {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 370px) {
+  .technologies, .tools {
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr);
+    gap: 3rem;
+  }
+
+  .main_container {
+    padding: 0;
   }
 }
 
