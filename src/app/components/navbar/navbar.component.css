@@ -79,6 +79,15 @@ a span {
   display: none;
 }
 
+.nav-bar ul li a {
+    font-size: 14px;
+  }
+
+  .active {
+    transform: translateX(0%) !important;
+    z-index: 1 !important;
+}
+
 @media only screen and (max-width: 1320px) {
   header {
     padding: 0 50px;
@@ -122,11 +131,8 @@ a span {
   }
 }
 
-.nav-bar ul li a {
-    font-size: 14px;
+@media only screen and (max-width: 440px) {
+  header {
+    padding: 0 10px;
   }
-
-  .active {
-    transform: translateX(0%) !important;
-    z-index: 1 !important;
 }
