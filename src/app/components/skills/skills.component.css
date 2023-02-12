@@ -6,6 +6,10 @@ i {
   text-shadow: 5px 5px #4A4E69;
 }
 
+h3 {
+  font-weight: bold;
+}
+
 span {
   color: #ffffe3;
 }

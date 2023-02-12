@@ -24,11 +24,11 @@ header {
 }
 
 .typed {
-  color: #6fffe9;
+  color: #86FFED;
 }
 
 a span {
-  color: #6fffe9;
+  color: #86FFED;
 }
 
 .nav-link {
@@ -38,24 +38,24 @@ a span {
 }
 
 .nav-link:focus {
-  color: #6fffe9;
+  color: #86FFED;
 }
 
 .nav-link:hover {
-  color: #6fffe9;
+  color: #86FFED;
 }
 
 .btn {
   color: #ffffe3;
-  box-shadow: 2px 2px #6fffe9;
-  color: #6fffe9;
-  border: #6fffe9 1px solid;
+  box-shadow: 2px 2px #86FFED;
+  color: #86FFED;
+  border: #86FFED 1px solid;
   font-size: 14px;
 }
 
 .btn:hover {
   color: #000;
-  background-color: #6fffe9;
+  background-color: #86FFED;
   box-shadow: 2px 2px black;
   border: black 1px solid;
 }

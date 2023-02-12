@@ -14,7 +14,7 @@
   transition: all 400ms ease;
 }
 .button-up:hover {
-  background-color: #6fffe9;
+  background-color: #86FFED;
   box-shadow: 1px 3px 11px 1px black;
   transform: scale(1.1);
   fill: black;
