@@ -1,3 +1,12 @@
+.portfolio {
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-gap: 1rem;
+  grid-auto-flow: dense;
+  padding: 1rem;
+  justify-items: center;
+  
+}
+
 .btn {
   color: #ffffe3;
   box-shadow: 2px 2px #86FFED;
@@ -28,25 +37,62 @@ span {
   background-color: #4A4E69;
 }
 
-img {
-  border: 1px solid #86FFED;
-  box-shadow: black 10px 10px;
-  height: 100%;
+.img {
+  border-radius: 10px;
+  transition: ease-out 0.5s;
 }
 
-@media (max-width: 1400px) {
-  img {
-    width: 100%;
-    height: 100%;
+.img:hover {
+  box-shadow: #4A4E69 0 20px 20px 0;
+  transition: ease-in 0.2s;
+}
+
+img {
+  border: 1px solid #4A4E69;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+i {
+  font-size: 40px;
+  color: #ffffe3;
+  margin: 0 10px;
+  text-shadow: 5px 5px #4A4E69;
+}
+
+svg {
+  fill: #ffffe3;
+  width: 32px;
+  height: 32px;
+  margin: 0 10px;
+  filter: drop-shadow(5px 5px #4A4E69);
+}
+
+.techs {
+  grid-template-columns: repeat( auto-fill, minmax(40px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+}
+
+@media (max-width: 580px) {
+  .portfolio {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+
+  .img {
+    width: 400px;
+  }
+
+  p {
+    font-size: 1rem;
+    text-align: justify;
   }
 }
 
-@media (max-width: 1200px) {
-.btn {
-  margin: 10px 0;
-}
-.row {
-  display: flex;
-  flex-direction: column;
-}
+  @media (max-width: 475px) {
+  
+  .img {
+    width: 300px;
+  }
 }
