@@ -7,22 +7,8 @@
   
 }
 
-.btn {
-  color: #ffffe3;
-  box-shadow: 2px 2px #86FFED;
-  color: #86FFED;
-  border: #86FFED 1px solid;
-}
-
 span {
   color: #86FFED;
-}
-
-.btn:hover {
-  color: #000;
-  background-color: #86FFED;
-  box-shadow: 2px 2px black;
-  border: black 1px solid;
 }
 
 .btn-source {
@@ -47,7 +33,7 @@ span {
   transition: ease-in 0.2s;
 }
 
-img {
+.img img {
   border: 1px solid #4A4E69;
   width: 100%;
   border-radius: 10px;
